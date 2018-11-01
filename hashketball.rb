@@ -1,5 +1,5 @@
 def game_hash
-  returnhash= {
+  game_hash= {
     home:{
       team_name:"Brooklyn Nets",
       colors:["Black", "White"],
@@ -113,5 +113,4 @@ def game_hash
       }
     },
   }
-  return returnhash
 end
