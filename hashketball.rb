@@ -153,13 +153,13 @@ def team_names
   output
 end
 def player_numbers(teamname)
-  playernumbers=[]
+  numbers=[]
   game_hash.each do |team, teamdata|
-    teamdata[:players].each do |playername, playerdata|
-      if playername==name
-        size=playerdata[:shoe]
+    if teamdata[:team_name]==teamname
+      teamdata[:players].each do |playername, playerdata|
+        numbers.push(playerdata[:number])
       end
     end
   end
-  return size
+  colors
 end
