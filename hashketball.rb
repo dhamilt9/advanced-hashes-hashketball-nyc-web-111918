@@ -161,5 +161,5 @@ def player_numbers(teamname)
       end
     end
   end
-  colors
+  numbers
 end
