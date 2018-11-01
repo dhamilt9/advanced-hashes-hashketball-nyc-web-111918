@@ -163,7 +163,7 @@ def player_numbers(teamname)
   end
   numbers
 end
-def player_stats(playername)
+def player_stats(name)
   stats={}
   game_hash.each do |team, teamdata|
     teamdata[:players].each do |playername, playerdata|
