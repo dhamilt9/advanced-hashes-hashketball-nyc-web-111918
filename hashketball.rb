@@ -113,3 +113,5 @@ def game_hash
       }
     },
   }
+  return returnhash
+end
