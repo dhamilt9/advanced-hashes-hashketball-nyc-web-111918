@@ -185,5 +185,5 @@ def big_shoe_rebounds
       end
     end
   end
-  return largest[:name]
+  return player_stats(largest[:name])[:shoe]
 end
