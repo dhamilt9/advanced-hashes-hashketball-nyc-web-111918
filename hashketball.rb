@@ -185,5 +185,5 @@ def big_shoe_rebounds
       end
     end
   end
-  return player_stats(largest[:name])[:reboudns]
+  return player_stats(largest[:name])[:rebounds]
 end
