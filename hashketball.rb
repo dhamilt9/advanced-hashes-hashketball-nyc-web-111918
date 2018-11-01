@@ -126,7 +126,7 @@ def num_points_scored(name)
   return points
 end
 def shoe_size(name)
-  points=nil
+  size=nil
   game_hash.each do |team, teamdata|
     teamdata[:players].each do |playername, playerdata|
       if playername==name
@@ -134,5 +134,5 @@ def shoe_size(name)
       end
     end
   end
-  return points
+  return size
 end
