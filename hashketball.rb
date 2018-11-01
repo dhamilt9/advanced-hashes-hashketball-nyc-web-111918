@@ -152,3 +152,14 @@ def team_names
   end
   output
 end
+def player_numbers(teamname)
+  playernumbers=[]
+  game_hash.each do |team, teamdata|
+    teamdata[:players].each do |playername, playerdata|
+      if playername==name
+        size=playerdata[:shoe]
+      end
+    end
+  end
+  return size
+end
